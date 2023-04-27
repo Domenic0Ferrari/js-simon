@@ -38,6 +38,6 @@ let x = setInterval(function(){
     // Quando il conto alla rovescia finisce stampo un risultato
     if (count < 0) {
         clearInterval(x);
-        document.getElementById("demo").innerHTML = "EXPIRED";
+        document.getElementById("demo").innerHTML = "CORREGGIAMO L'ESERCIZIO";
     }
 }, 1000);
